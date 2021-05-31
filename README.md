@@ -1,47 +1,21 @@
-# [Online-Survey](https://www.online-survey.app)
+# Online Survey
 
-## Needed
+Site web de création et de partage de formulaires, créé avec React
 
-* [Nodejs v12.18.0 (LTS)](https://nodejs.org/en/download/)
+## Screenshots de l'application :
 
-* A MariaDB installation see [MariaDB](https://mariadb.org/) / [Wamp](https://www.wampserver.com/)
+### Page d'accueil :
+![accueil](https://user-images.githubusercontent.com/47148465/120203211-c0daa600-c227-11eb-9f1c-541cef301211.png)
 
-## Setup .env
+### Page d'inscription :
+![inscription](https://user-images.githubusercontent.com/47148465/120203277-d0f28580-c227-11eb-8c35-ae823500e28c.png)
 
-Choose as a template: .env development or .env production.
+### Page de création :
+![création](https://user-images.githubusercontent.com/47148465/120203785-5e35da00-c228-11eb-8ae6-52e0c30b1a52.png)
 
-Do not change value of :
+### Page de réponse à un formulaire :
+![répondre](https://user-images.githubusercontent.com/47148465/120203823-6857d880-c228-11eb-81ca-8af24998bea0.png)
 
-- **REACT_APP_API_URL**
-- **REACT_APP_URL**
-- **API_ROUTE**
-
-Change :
-
-- **REACT_APP_HOST** *the host of your DB*
-- **REACT_APP_USER** *the user you want to use to manipulate your db*
-- **REACT_APP_PASS** *password of the user account*
-- **REACT_APP_DB** *your DB name*
-- **REACT_APP_CLIMIT** *number of simulataneous connection the server will handle (int)*
-- **REACT_APP_SECRET_KEY** *(need to be a string)*
-
-## Quick install 
-
-### Auto
-
-* `npm run quick-install`
-
-### Manually
-
-* `npm i ` to install package dependencies
-* `db-migrate up` db migrations (On windows & macOS add `npx` at the beginning of the command)
-
-## Useful command
-
-* `npm start` to start frontend server
-* `npm run api` to start backend server
-* `npm i` to install package dependencies
-* `npm run db-set` to setup tables
-* `db-migrate down` to remove tables
-* `npm run db-reset` to reset tables
+### Vue d'ensemble des formulaires et statistiques :
+![liste et statistiques](https://user-images.githubusercontent.com/47148465/120203879-7c033f00-c228-11eb-91e9-55c865a619e0.png)
 
